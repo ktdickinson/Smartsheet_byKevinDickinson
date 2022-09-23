@@ -4,8 +4,8 @@
 	@version 1.0
 	-->
 <NotepadPlus>
-    <AutoComplete language="Smartsheet">
-        <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," />
+	<AutoComplete language="Smartsheet">
+		<Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," />
         <KeyWord name="ABS" func="yes">
             <Overload retVal="" descr="ABS( number )&#x0a;&#x0a;Returns the absolute value of a number." />
         </KeyWord>
